@@ -1,0 +1,14 @@
+.blog-title{ 
+    font-size: 1.25rem;
+}
+
+.blog-content {
+    display: inline;
+}
+
+.blog-date {
+    color: #8e9e86;
+    font-size: .75rem;
+    display: inline;
+    margin: 0 0 0 10px;
+}

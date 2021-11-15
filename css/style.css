@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ddedde;
+}
+
+#content-container {
+    text-align: center;
+}
+
+
+#header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    border-bottom: 3px double #238c29;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.blog-post {
+    padding: 10px;
+    background-color: white;
+    margin: 0 50px;
+}
+.blog-post:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.blog-post a, .blog-post a:visited {
+    text-decoration: none;
+    color: #238c29;
+}
+
+
+.profile_image {
+    object-fit: cover;
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+}
+
+.home_button {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #238c29;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+footer {
+    height: 20px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
